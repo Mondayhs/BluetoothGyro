@@ -80,7 +80,7 @@ struct ContentView: View{
                                     .font(.body)
                                     .frame(width: 140, alignment: .leading)
                                     .lineSpacing(24)
-                                    .foregroundColor(Color(hue: 0.453, saturation: 0.732, brightness: 0.762))
+                                    .foregroundColor(Color.gray)
                             }
                         }   // End HStack
                             Button{
@@ -265,7 +265,12 @@ struct SelectView: View{
         VStack{
             switch witchView{
             case 0:
-                Text("GOo")
+                if (peripheral.name == "Acromax_BLE") {
+                    Text("Hi, There have three type page to show gyro. ")
+                }
+                else{
+                    Text("Just Show")
+                }
             case 1:
                 AccelerateView(peripheral: peripheral, bluetoothViewModel: bluetoothViewModel)
             case 2:

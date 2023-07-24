@@ -25,7 +25,7 @@ struct GyroView: View {
 //                .lineSpacing(24)
                 .foregroundColor(Color.black)
             HStack(spacing: 20){
-                Text("Temperature: \(Temperature)")
+                Text("Temperature: \(Temperature) °C")
                     .fontWeight(.heavy)
                     .font(.system(size: 13))
 //                if bluetoothViewModel.isConnect(peripheral){
