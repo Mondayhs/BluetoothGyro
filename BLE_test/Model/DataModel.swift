@@ -216,7 +216,7 @@ extension BluetoothViewModel{
             GyroData[1].data.append(Y)
             GyroData[2].data.append(Z)
         }
-        if GyroData[0].data.count > 30{
+        if GyroData[0].data.count > 300{
 //            print(AccelerateData[0].data)
             GyroData[0].data.remove(at: 0)
             GyroData[1].data.remove(at: 0)
@@ -228,7 +228,7 @@ extension BluetoothViewModel{
     func MakeTemperature(_ tmp: Float?, _ index:Int?) {
         guard let temperature = tmp , let index = index else { return  }
         if index == 1 || index%50 == 0{
-            let Tmp = String(Int((temperature/340.0+36.53)))
+            let Tmp = String(format: "%.2f", temperature/340.0+36.53)
             //        print(Tmp)
             Temperature = Tmp
         }
