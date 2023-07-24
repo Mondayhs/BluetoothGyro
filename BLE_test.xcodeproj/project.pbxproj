@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6558CC72A380B8100D7F076 /* BLETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558CC62A380B8100D7F076 /* BLETableViewController.swift */; };
+		C6558CE92A3814E400D7F076 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558CE82A3814E400D7F076 /* SceneDelegate.swift */; };
+		C6558CEB2A3821FE00D7F076 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558CEA2A3821FE00D7F076 /* DeviceViewController.swift */; };
+		C6558CF02A3FE23F00D7F076 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558CEF2A3FE23F00D7F076 /* Extension.swift */; };
+		C6558CF22A40191C00D7F076 /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558CF12A40191C00D7F076 /* CommandView.swift */; };
+		C6558D082A41771300D7F076 /* BLEmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558D072A41771200D7F076 /* BLEmodel.swift */; };
+		C6558D0A2A42F98E00D7F076 /* SwiftuiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6558D092A42F98A00D7F076 /* SwiftuiModel.swift */; };
+		C6A618042A5E5528004A4EE5 /* BleSearchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A618032A5E5528004A4EE5 /* BleSearchTableView.swift */; };
+		C6A618142A6128BA004A4EE5 /* TabBarSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A618132A6128BA004A4EE5 /* TabBarSelectView.swift */; };
+		C6A618162A6131DF004A4EE5 /* BluetoothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A618152A6131DF004A4EE5 /* BluetoothModel.swift */; };
+		C6A618222A6E142F004A4EE5 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C6A618212A6E142F004A4EE5 /* toy_biplane_idle.usdz */; };
+		C6AA81692A496DA700EAC71F /* AccelerateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA81682A496DA700EAC71F /* AccelerateView.swift */; };
+		C6AA816B2A498D0500EAC71F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA816A2A498D0500EAC71F /* DataModel.swift */; };
+		C6AA816E2A4BCF6D00EAC71F /* peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA816D2A4BCF6B00EAC71F /* peripheral.swift */; };
+		C6BEBD6B2A57F977008A9938 /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = C6BEBD6A2A57F977008A9938 /* Model3DView */; };
 		C6D8FC622A305210005FCADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8FC612A305210005FCADC /* AppDelegate.swift */; };
-		C6D8FC642A305210005FCADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8FC632A305210005FCADC /* SceneDelegate.swift */; };
-		C6D8FC662A305210005FCADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8FC652A305210005FCADC /* ViewController.swift */; };
 		C6D8FC692A305210005FCADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D8FC672A305210005FCADC /* Main.storyboard */; };
 		C6D8FC6B2A305213005FCADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D8FC6A2A305213005FCADC /* Assets.xcassets */; };
 		C6D8FC6E2A305213005FCADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D8FC6C2A305213005FCADC /* LaunchScreen.storyboard */; };
+		C6E062482A527C7A00AB2053 /* For test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E062472A527C7A00AB2053 /* For test.swift */; };
+		C6E0624B2A52987300AB2053 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0624A2A52987300AB2053 /* GyroView.swift */; };
+		C6E0624E2A53AA9100AB2053 /* Crc8Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0624D2A53AA9000AB2053 /* Crc8Model.swift */; };
+		C6E062542A55480F00AB2053 /* Gyro3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E062532A55480F00AB2053 /* Gyro3DView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6558CC62A380B8100D7F076 /* BLETableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLETableViewController.swift; sourceTree = "<group>"; };
+		C6558CE82A3814E400D7F076 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../BLE_tableview/BLE_tableview/SceneDelegate.swift; sourceTree = "<group>"; };
+		C6558CEA2A3821FE00D7F076 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		C6558CEF2A3FE23F00D7F076 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C6558CF12A40191C00D7F076 /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
+		C6558D072A41771200D7F076 /* BLEmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEmodel.swift; sourceTree = "<group>"; };
+		C6558D092A42F98A00D7F076 /* SwiftuiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftuiModel.swift; sourceTree = "<group>"; };
+		C6A618032A5E5528004A4EE5 /* BleSearchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleSearchTableView.swift; sourceTree = "<group>"; };
+		C6A618132A6128BA004A4EE5 /* TabBarSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSelectView.swift; sourceTree = "<group>"; };
+		C6A618152A6131DF004A4EE5 /* BluetoothModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothModel.swift; sourceTree = "<group>"; };
+		C6A618212A6E142F004A4EE5 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		C6AA81682A496DA700EAC71F /* AccelerateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerateView.swift; sourceTree = "<group>"; };
+		C6AA816A2A498D0500EAC71F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C6AA816D2A4BCF6B00EAC71F /* peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peripheral.swift; sourceTree = "<group>"; };
 		C6D8FC5E2A305210005FCADC /* BLE_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D8FC612A305210005FCADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6D8FC632A305210005FCADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6D8FC652A305210005FCADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6D8FC682A305210005FCADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6D8FC6A2A305213005FCADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6D8FC6D2A305213005FCADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C6D8FC6F2A305213005FCADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E062472A527C7A00AB2053 /* For test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "For test.swift"; sourceTree = "<group>"; };
+		C6E0624A2A52987300AB2053 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
+		C6E0624D2A53AA9000AB2053 /* Crc8Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crc8Model.swift; sourceTree = "<group>"; };
+		C6E062532A55480F00AB2053 /* Gyro3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyro3DView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +63,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BEBD6B2A57F977008A9938 /* Model3DView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6558D062A4176DE00D7F076 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA816C2A4BCF3200EAC71F /* store */,
+				C6558D092A42F98A00D7F076 /* SwiftuiModel.swift */,
+				C6558D072A41771200D7F076 /* BLEmodel.swift */,
+				C6AA816A2A498D0500EAC71F /* DataModel.swift */,
+				C6E0624D2A53AA9000AB2053 /* Crc8Model.swift */,
+				C6A618152A6131DF004A4EE5 /* BluetoothModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6AA816C2A4BCF3200EAC71F /* store */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA816D2A4BCF6B00EAC71F /* peripheral.swift */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
 		C6D8FC552A305210005FCADC = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +110,41 @@
 		C6D8FC602A305210005FCADC /* BLE_test */ = {
 			isa = PBXGroup;
 			children = (
+				C6E0624F2A550B8400AB2053 /* object */,
+				C6E062492A52983F00AB2053 /* View */,
 				C6D8FC612A305210005FCADC /* AppDelegate.swift */,
-				C6D8FC632A305210005FCADC /* SceneDelegate.swift */,
-				C6D8FC652A305210005FCADC /* ViewController.swift */,
+				C6558D062A4176DE00D7F076 /* Model */,
+				C6558CEF2A3FE23F00D7F076 /* Extension.swift */,
+				C6558CE82A3814E400D7F076 /* SceneDelegate.swift */,
 				C6D8FC672A305210005FCADC /* Main.storyboard */,
 				C6D8FC6A2A305213005FCADC /* Assets.xcassets */,
 				C6D8FC6C2A305213005FCADC /* LaunchScreen.storyboard */,
-				C6D8FC6F2A305213005FCADC /* Info.plist */,
+				C6E062472A527C7A00AB2053 /* For test.swift */,
 			);
 			path = BLE_test;
+			sourceTree = "<group>";
+		};
+		C6E062492A52983F00AB2053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA81682A496DA700EAC71F /* AccelerateView.swift */,
+				C6558CC62A380B8100D7F076 /* BLETableViewController.swift */,
+				C6558CF12A40191C00D7F076 /* CommandView.swift */,
+				C6558CEA2A3821FE00D7F076 /* DeviceViewController.swift */,
+				C6E0624A2A52987300AB2053 /* GyroView.swift */,
+				C6E062532A55480F00AB2053 /* Gyro3DView.swift */,
+				C6A618032A5E5528004A4EE5 /* BleSearchTableView.swift */,
+				C6A618132A6128BA004A4EE5 /* TabBarSelectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6E0624F2A550B8400AB2053 /* object */ = {
+			isa = PBXGroup;
+			children = (
+				C6A618212A6E142F004A4EE5 /* toy_biplane_idle.usdz */,
+			);
+			path = object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = BLE_test;
+			packageProductDependencies = (
+				C6BEBD6A2A57F977008A9938 /* Model3DView */,
+			);
 			productName = BLE_test;
 			productReference = C6D8FC5E2A305210005FCADC /* BLE_test.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = C6D8FC552A305210005FCADC;
+			packageReferences = (
+				C6BEBD692A57F976008A9938 /* XCRemoteSwiftPackageReference "Model3DView" */,
+			);
 			productRefGroup = C6D8FC5F2A305210005FCADC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A618222A6E142F004A4EE5 /* toy_biplane_idle.usdz in Resources */,
 				C6D8FC6E2A305213005FCADC /* LaunchScreen.storyboard in Resources */,
 				C6D8FC6B2A305213005FCADC /* Assets.xcassets in Resources */,
 				C6D8FC692A305210005FCADC /* Main.storyboard in Resources */,
@@ -138,9 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6D8FC662A305210005FCADC /* ViewController.swift in Sources */,
+				C6558CC72A380B8100D7F076 /* BLETableViewController.swift in Sources */,
+				C6AA816E2A4BCF6D00EAC71F /* peripheral.swift in Sources */,
+				C6E062542A55480F00AB2053 /* Gyro3DView.swift in Sources */,
+				C6558D0A2A42F98E00D7F076 /* SwiftuiModel.swift in Sources */,
+				C6558CF22A40191C00D7F076 /* CommandView.swift in Sources */,
+				C6AA81692A496DA700EAC71F /* AccelerateView.swift in Sources */,
 				C6D8FC622A305210005FCADC /* AppDelegate.swift in Sources */,
-				C6D8FC642A305210005FCADC /* SceneDelegate.swift in Sources */,
+				C6558CF02A3FE23F00D7F076 /* Extension.swift in Sources */,
+				C6A618162A6131DF004A4EE5 /* BluetoothModel.swift in Sources */,
+				C6AA816B2A498D0500EAC71F /* DataModel.swift in Sources */,
+				C6E062482A527C7A00AB2053 /* For test.swift in Sources */,
+				C6A618142A6128BA004A4EE5 /* TabBarSelectView.swift in Sources */,
+				C6558CEB2A3821FE00D7F076 /* DeviceViewController.swift in Sources */,
+				C6558D082A41771300D7F076 /* BLEmodel.swift in Sources */,
+				C6E0624E2A53AA9100AB2053 /* Crc8Model.swift in Sources */,
+				C6558CE92A3814E400D7F076 /* SceneDelegate.swift in Sources */,
+				C6E0624B2A52987300AB2053 /* GyroView.swift in Sources */,
+				C6A618042A5E5528004A4EE5 /* BleSearchTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,11 +392,15 @@
 				DEVELOPMENT_TEAM = Z9CY427UXS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BLE_test/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AX-NCU";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow using bluetooth for discovering peripherals";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +424,15 @@
 				DEVELOPMENT_TEAM = Z9CY427UXS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BLE_test/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AX-NCU";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Please allow using bluetooth for discovering peripherals";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6BEBD692A57F976008A9938 /* XCRemoteSwiftPackageReference "Model3DView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/Model3DView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6BEBD6A2A57F977008A9938 /* Model3DView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6BEBD692A57F976008A9938 /* XCRemoteSwiftPackageReference "Model3DView" */;
+			productName = Model3DView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6D8FC562A305210005FCADC /* Project object */;
 }
