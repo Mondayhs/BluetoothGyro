@@ -17,7 +17,8 @@
 		C6A618042A5E5528004A4EE5 /* BleSearchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A618032A5E5528004A4EE5 /* BleSearchTableView.swift */; };
 		C6A618142A6128BA004A4EE5 /* TabBarSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A618132A6128BA004A4EE5 /* TabBarSelectView.swift */; };
 		C6A618162A6131DF004A4EE5 /* BluetoothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A618152A6131DF004A4EE5 /* BluetoothModel.swift */; };
-		C6A618282A6E49C9004A4EE5 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C6A618272A6E49C9004A4EE5 /* toy_biplane_idle.usdz */; };
+		C6A6182E2A6E64C0004A4EE5 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C6A6182D2A6E64C0004A4EE5 /* toy_car.usdz */; };
+		C6A618302A6E6F6D004A4EE5 /* al.obj in Resources */ = {isa = PBXBuildFile; fileRef = C6A6182F2A6E6F6C004A4EE5 /* al.obj */; };
 		C6AA81692A496DA700EAC71F /* AccelerateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA81682A496DA700EAC71F /* AccelerateView.swift */; };
 		C6AA816B2A498D0500EAC71F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA816A2A498D0500EAC71F /* DataModel.swift */; };
 		C6AA816E2A4BCF6D00EAC71F /* peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA816D2A4BCF6B00EAC71F /* peripheral.swift */; };
@@ -43,7 +44,8 @@
 		C6A618032A5E5528004A4EE5 /* BleSearchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleSearchTableView.swift; sourceTree = "<group>"; };
 		C6A618132A6128BA004A4EE5 /* TabBarSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSelectView.swift; sourceTree = "<group>"; };
 		C6A618152A6131DF004A4EE5 /* BluetoothModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothModel.swift; sourceTree = "<group>"; };
-		C6A618272A6E49C9004A4EE5 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		C6A6182D2A6E64C0004A4EE5 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		C6A6182F2A6E6F6C004A4EE5 /* al.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = al.obj; sourceTree = "<group>"; };
 		C6AA81682A496DA700EAC71F /* AccelerateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerateView.swift; sourceTree = "<group>"; };
 		C6AA816A2A498D0500EAC71F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		C6AA816D2A4BCF6B00EAC71F /* peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peripheral.swift; sourceTree = "<group>"; };
@@ -142,7 +144,8 @@
 		C6E0624F2A550B8400AB2053 /* object */ = {
 			isa = PBXGroup;
 			children = (
-				C6A618272A6E49C9004A4EE5 /* toy_biplane_idle.usdz */,
+				C6A6182F2A6E6F6C004A4EE5 /* al.obj */,
+				C6A6182D2A6E64C0004A4EE5 /* toy_car.usdz */,
 			);
 			path = object;
 			sourceTree = "<group>";
@@ -211,10 +214,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A618282A6E49C9004A4EE5 /* toy_biplane_idle.usdz in Resources */,
+				C6A618302A6E6F6D004A4EE5 /* al.obj in Resources */,
 				C6D8FC6E2A305213005FCADC /* LaunchScreen.storyboard in Resources */,
 				C6D8FC6B2A305213005FCADC /* Assets.xcassets in Resources */,
 				C6D8FC692A305210005FCADC /* Main.storyboard in Resources */,
+				C6A6182E2A6E64C0004A4EE5 /* toy_car.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

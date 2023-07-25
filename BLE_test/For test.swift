@@ -48,11 +48,12 @@ struct For_test: View {
     @State private var TransmitDataX = ""
     @State private var TransmitDataY = ""
     @State private var TransmitDataZ = ""
+    @State private var Transmitscale = ""
     @FocusState private var nameIsFocused: Bool
     @State private var degreeX: Double = 0
     @State private var degreeY: Double = 0
     @State private var degreeZ: Double = 0
-    
+    @State private var scalee: Float = 2.0
     var body: some View {
         
         
@@ -74,49 +75,28 @@ struct For_test: View {
                     degreeX  = Double(TransmitDataX) ?? 0.0
                     degreeY  = Double(TransmitDataY) ?? 0.0
                     degreeZ  = Double(TransmitDataZ) ?? 0.0
+                    scalee = Float(Transmitscale) ?? 2.0
+            
                 }label: {
                     HStack{
                         Text("Confirm")
                     }   // End HStack
                 }   // End button label
             }
+            TextField("Input scale", text: $Transmitscale)
+//                .keyboardType(.numberPad)
+                .focused($nameIsFocused)
             ZStack {
-                ZStack {
-                    ZStack {
-                        Text("Y")
-                            .offset(.init(width: 180, height: 0))
-                        SceneKitView(radius: 0.01, height: 1, angle: Angle(degrees: 0), color: Color.blue)
-                            .opacity(0.2)
-//                            .offset(.init(width: 150, height: 90))
-                            .rotation3DEffect(.degrees(90), axis: (x: 0, y: 0, z: 1), anchor: .center, perspective: -0.1)
-                            
-                    }
-                    HStack {
-                        Text("X")
-                            .offset(.init(width: -100, height: 0))
-                        SceneKitView(radius: 0.05, height: 5, angle: Angle(degrees: 0), color: Color.red)
-                            .opacity(0.2)
-                            .rotation3DEffect(.degrees(80), axis: (x: 0, y: 0, z: 1), anchor: .center, perspective: -0.1)
-                    }
-                    
-                    .rotation3DEffect(.degrees(-65), axis: (x: 0, y: 1, z: 0), anchor: .center, perspective: -0.1)
-//                    .offset(CGSize(width: -90, height: 0))
-                    Spacer()
-                    ZStack {
-                        Text("Z")
-                            .offset(.init(width: 2, height: -200))
-                        SceneKitView(radius: 0.01, height: 2, angle: Angle(degrees: 0), color: Color.green)
-                            .opacity(0.2)
-                    }
-                }
-                Model3DView(named: "toy_biplane_idle.usdz")
-                    .transform(scale: 0.3)
+                Model3DView(named: "toy_car.usdz")
+//                    .transform(scale: Vector3(scalee))
+//                    .offset(.init(width: -80, height: 0))
+//                    .rotation3DEffect(.degrees(-90), axis: (x: 0, y: 0, z: 1))
                     .rotation3DEffect(.degrees(degreeZ), axis: (x: 0, y: 0, z: 1))
                     .rotation3DEffect(.degrees(degreeX), axis: (x: 1, y: 0, z: 0))
                     .rotation3DEffect(.degrees(degreeY), axis: (x: 0, y: 1, z: 0))
                 
             }
-            .frame(width: 200, height: 400)
+//            .frame(width: 200, height: 400)
 
         }
     }

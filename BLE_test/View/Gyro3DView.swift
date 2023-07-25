@@ -18,7 +18,7 @@ struct Gyro3DView: View {
     @State private var degreeZ: Double = 0
     
     var body: some View {
-        VStack{
+        VStack(spacing: 10){
             ZStack {
                 ZStack {
                     Text("Y")
@@ -53,25 +53,51 @@ struct Gyro3DView: View {
                     let Y = Double(bluetoothViewModel.GyroData[1].data.last?.data ?? 0)
                     let Z = Double(bluetoothViewModel.GyroData[2].data.last?.data ?? 0)
                     
-                    Model3DView(named: "toy_biplane_idle.usdz")
-                        .transform(scale: 0.2)
-                        .offset(.init(width: 0, height: -90))
+                    Image("Gyroscope")
+                        .resizable()
+                        .frame(width: 70, height: 70, alignment: .center)
                         .rotation3DEffect(.degrees(-25), axis: (x: 0, y: 1, z: 0), anchor: .center, perspective: -0.1)
                         .rotation3DEffect(.degrees(X), axis: (x: 1, y: 0, z: 0))
                         .rotation3DEffect(.degrees(Y), axis: (x: 0, y: 1, z: 0))
                         .rotation3DEffect(.degrees(Z), axis: (x: 0, y: 0, z: 1))
                 }
             }   // End ZStack
-            
             .frame(width: 120, height: 120, alignment: .center)
-            
-//            VStack{
-//                Text("")
-//            }   // End VStack
-            
-            
         }   // End VStack
         .frame(width: 220, height: 420, alignment: .center)
+        
+        HStack(spacing: 8){
+            Button{
+                //                        isConnect = bluetoothViewModel.isConnect(peripheral)
+                let cmd : [UInt8] = [ 0x41, 0x58, 0x01, 0x00, 0x00, 0x00, 0x00, 0x5F ]
+                bluetoothViewModel.SendCMD(peripheral, bluetoothViewModel.characteristicAcromaxBLE, cmd)
+                bluetoothViewModel.SendCMD(peripheral, bluetoothViewModel.characteristicAcromaxBLE, cmd)
+                bluetoothViewModel.getCurrentTime()
+            }label: {
+                HStack{
+                    Image(systemName: "restart")
+                        .foregroundColor(Color.blue)
+                    Text("Start")
+                }   // End HStack
+                .fontWeight(.heavy)
+                .font(.system(size: 16))
+            }   // End button label
+            Button{
+                //                        isConnect = bluetoothViewModel.isConnect(peripheral)
+                let cmd : [UInt8] = [ 0x41, 0x58, 0x02, 0x00, 0x00, 0x00, 0x00, 0xF9 ]
+                bluetoothViewModel.SendCMD(peripheral, bluetoothViewModel.characteristicAcromaxBLE, cmd)
+                
+            }label: {
+                HStack{
+                    Image(systemName: "stop.circle")
+                        .foregroundColor(Color.blue)
+                    Text("Stop")
+                }   // End HStack
+                .fontWeight(.heavy)
+                .font(.system(size: 16))
+            }   // End button label
+        }   // End HStack
+            
     }
 }
 

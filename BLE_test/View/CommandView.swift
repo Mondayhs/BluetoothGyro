@@ -277,8 +277,8 @@ struct SelectView: View{
                 GyroView(peripheral: peripheral, bluetoothViewModel: bluetoothViewModel)
             case 3:
                 Gyro3DView(peripheral: peripheral, bluetoothViewModel: bluetoothViewModel)
-//            case 4:
-//                For_test()
+            case 4:
+                For_test()
             default:
                 Text("GOo")
             }

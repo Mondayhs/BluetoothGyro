@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "ble_icon.png",
+      "filename" : "Gyroscope.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
